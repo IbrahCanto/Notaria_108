@@ -643,7 +643,7 @@ font-size: 3em;
       </li>
       <li class="nav-item">
         <a class="nav-link" href="./#features">
-        Acerca De
+        Nosotros
         </a>
       </li>
       <!-- <li class="nav-item">
@@ -771,7 +771,7 @@ font-size: 3em;
 <br><br>
 
 <div class="cd-section" id="features">
-<Center><h3 class="title" style="font-weight: bold">Acerca De</h3></Center><br>
+<Center><h3 class="title" style="font-weight: bold">Nosotros</h3></Center><br>
 <center>
 
 <div style="display: none;" id="gallery"></div>
@@ -843,23 +843,23 @@ font-size: 3em;
 
                             <p style="font-weight: bold; font-size:140%; text-align:left;">Valores:</p>
                             <p style="font-size:130%; text-align:justify;">                          
-                              <span style="color:#1d1d1d; font-weight: bold;">Honestidad: </span>Nos regimos por los más altos estándares éticos y de integridad en todos nuestros servicios, garantizando la confianza y tranquilidad de nuestros clientes.
+                              <span style=" font-weight: bold;">Honestidad: </span>Nos regimos por los más altos estándares éticos y de integridad en todos nuestros servicios, garantizando la confianza y tranquilidad de nuestros clientes.
                               </p>
                               <p style="font-size:130%; text-align:justify;">                          
-                              <span style="color:#1d1d1d; font-weight: bold;">Profesionalismo: </span>Contamos con un equipo de profesionales altamente capacitados y experimentados, comprometidos en brindar servicios de la más alta calidad.
+                              <span style=" font-weight: bold;">Profesionalismo: </span>Contamos con un equipo de profesionales altamente capacitados y experimentados, comprometidos en brindar servicios de la más alta calidad.
                               </p>
                               <p style="font-size:130%; text-align:justify;">                          
-                              <span style="color:#1d1d1d; font-weight: bold;">Innovación: </span>Nos mantenemos actualizados en las últimas tendencias y tecnologías, buscando siempre soluciones innovadoras para mejorar la eficiencia y calidad de nuestros servicios.
+                              <span style=" font-weight: bold;">Innovación: </span>Nos mantenemos actualizados en las últimas tendencias y tecnologías, buscando siempre soluciones innovadoras para mejorar la eficiencia y calidad de nuestros servicios.
                               </p>
                               <p style="font-size:130%; text-align:justify;">                          
-                              <span style="color:#1d1d1d; font-weight: bold;">Responsabilidad: </span>Nos comprometemos a cumplir con nuestros compromisos de manera puntual y efectiva, garantizando la satisfacción y confianza de nuestros clientes.
+                              <span style=" font-weight: bold;">Responsabilidad: </span>Nos comprometemos a cumplir con nuestros compromisos de manera puntual y efectiva, garantizando la satisfacción y confianza de nuestros clientes.
                               </p>
                               <p style="font-size:130%; text-align:justify;">                          
-                              <span style="color:#1d1d1d; font-weight: bold;">Trabajo en equipo: </span>Fomentamos un ambiente de trabajo colaborativo y respetuoso, en el que todos los miembros de nuestro equipo trabajen juntos para lograr los objetivos de nuestros clientes.
+                              <span style=" font-weight: bold;">Trabajo en equipo: </span>Fomentamos un ambiente de trabajo colaborativo y respetuoso, en el que todos los miembros de nuestro equipo trabajen juntos para lograr los objetivos de nuestros clientes.
                               </p>
                               <br>
                               <p style="font-size:130%; text-align:justify;">                          
-                              <span style="color:#1d1d1d; font-weight: bold;">Estos valores son fundamentales para nuestra Notaría y nos permiten brindar
+                              <span style=" font-weight: bold;">Estos valores son fundamentales para nuestra Notaría y nos permiten brindar
                               servicios jurídicos confiables, eficientes y de calidad que superen las expectativas
                               de nuestros clientes.</span>
                               </p>
@@ -1288,7 +1288,7 @@ font-size: 3em;
 
                                   <div class="row">
                                     <div class="col-md-6">
-                                      <label>Nombre</label>
+                                      <label style="color: #FFFFFF;font-weight: 500;">Nombre</label>
                                         <div class="input-group">
                                           <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="tim-icons icon-single-02"></i></span>
@@ -1303,7 +1303,7 @@ font-size: 3em;
                                 
                                     <div class="col-md-6">
                                       <div class="form-group">
-                                          <label>Teléfono</label>
+                                          <label style="color: #FFFFFF;font-weight: 500;">Teléfono</label>
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                               <span class="input-group-text"><i class="tim-icons icon-tablet-2"></i></span>
@@ -1320,7 +1320,7 @@ font-size: 3em;
 
 
                                   <div class="form-group">
-                                      <label>Correo electrónico</label>
+                                      <label style="color: #FFFFFF;font-weight: 500;">Correo electrónico</label>
                                     <div class="input-group">
                                       <div class="input-group-prepend">
                                         <span class="input-group-text"><i class="tim-icons icon-email-85"></i></span>
@@ -1334,8 +1334,8 @@ font-size: 3em;
 
 
                                   <div class="form-group">
-                                    <label>Mensaje</label>
-                                    <textarea class="form-control textarea-limited" placeholder="Máximo de 450 caracteres." rows="10" ,="" maxlength="450" name="Mensaje">{{ old('Mensaje') }}</textarea>
+                                    <label style="color: #FFFFFF;font-weight: 500;">Mensaje</label>
+                                    <textarea  class="form-control force-opaque textarea-limited" placeholder="Máximo de 450 caracteres." rows="10" ,="" maxlength="450" name="Mensaje" >{{ old('Mensaje') }}</textarea>
                                   </div>
                                   @error('Mensaje')
                                     <p style="color:red"><strong>*{{'El campo Comentario es requerido'}}</strong></p>
@@ -1410,7 +1410,7 @@ font-size: 3em;
                                   <div class="description">
                                     <h5 class="info-title">
                                       Correo electrónico:
-                                      <br>notaria104yucatan@gmail.com
+                                      <br>notaria108yucatan@gmail.com
                                     </h5>
                                   </div>
                                 </div>
