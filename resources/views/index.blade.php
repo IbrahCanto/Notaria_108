@@ -4,8 +4,8 @@
  <head>
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <link rel="Logo7" sizes="76x76" href="./assets/img/Logo7.png">
-   <link rel="icon" type="image/png" href="./assets/img/Logo7.png">
+   <link rel="Logo7" sizes="76x76" href="./assets/img/logo_108_asset.png">
+   <link rel="icon" type="image/png" href="./assets/img/logo_108_asset.png">
    <title>
     Notaria 108
    </title>
@@ -29,9 +29,13 @@
 
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
+   <link href="./assets/css/style.css" rel="stylesheet" />
+
+
+
  </head>
 
- <style>
+ <!-- <style>
   body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -249,15 +253,6 @@ textarea.form-control {
   width: 100%;
   background-position: center center;
   background-size:cover;
-  /* height: 100%; */
-  /* background-color: #cccccc;
-  height: 1080px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative; */
-  /* display: flex;
-  align-items: center; */
 }
 
 .textEdit2{
@@ -270,19 +265,6 @@ text-align: left;
 color: rgba(255, 255, 255, 0.999);
 }
 
-/* -------------------------- */
-
-/* body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(45deg, #24006b, #f42f8c);
-  } */
-
   .container0{
 padding: 15px
   }
@@ -294,36 +276,23 @@ padding: 15px
     padding-bottom: 45px;
   }
 
-  .container3{ /* Reemplazar por container2 */
-    /* color: #242424; */
+  .container3{ 
     width: auto;
-    /* display: grid; */
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 15px;
-    /* margin: 0 auto; */
     margin: 0 auto;
   }
 
-
-
-  /* --------------------- */
-
 @media (min-width: 0px) and (max-width: 1080px) {
 #container2 {
-    /* color: #242424; */
     width: auto;
-    /* display: grid; */
-    /* display: flex; */
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 55px;
-    /* margin: 0 auto; */
     padding: 10px;
 } 
 
 .card-2{
-    /* color: #242424; */
-
     position: relative;
     width: 90%;
     height: 250px;
@@ -334,8 +303,6 @@ padding: 15px
   }
 
   .card-2:hover .face.face2{
-    /* color: #242424; */
-
     height: 0px;
     border-radius: 0 0 15px 15px;
   }
@@ -360,9 +327,6 @@ padding: 15px
 
   .card-2 .face.face2{
     font-size: 1.3em;
-
-    /* color: #242424; */
-
     background: #111;
     transition: 0.5s;
   }
@@ -374,7 +338,6 @@ padding: 15px
   }
 
   .card-2 .face.face1 .p2{
-  /* color: #242424; */
   color: rgba(26, 26, 26, 0.945);
   font-size: 1.2em;
   font-weight: bold;
@@ -385,19 +348,14 @@ padding: 15px
 
 @media (min-width: 1081px) and (max-width: 1300px){
   .container2{
-    /* color: #242424; */
     width: auto;
-    /* display: grid; */
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 15px;
-    /* margin: 0 auto; */
     margin: 0 auto;
   }
 
   .card-2{
-    /* color: #242424; */
-
     position: relative;
     width: 350px;
     height: 600px;
@@ -408,8 +366,6 @@ padding: 15px
   }
 
   .card-2:hover .face.face2{
-    /* color: #242424; */
-
     height: 60px;
     border-radius: 0 0 15px 15px;
   }
@@ -434,9 +390,6 @@ padding: 15px
 
   .card-2 .face.face2{
     font-size: .5em;
-
-    /* color: #242424; */
-
     background: #111;
     transition: 0.5s;
   }
@@ -448,7 +401,6 @@ padding: 15px
   }
 
   .card-2 .face.face1 .p2{
-  /* color: #242424; */
   color: rgba(26, 26, 26, 0.945);
   font-size: .8em;
   font-weight: bold;
@@ -460,19 +412,14 @@ padding: 15px
 
 @media (min-width: 1301px){
   .container2{
-    /* color: #242424; */
     width: auto;
-    /* display: grid; */
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-gap: 15px;
-    /* margin: 0 auto; */
     margin: 0 auto;
   }
 
   .card-2{
-    /* color: #242424; */
-
     position: relative;
     width: 350px;
     height: 600px;
@@ -483,8 +430,6 @@ padding: 15px
   }
 
   .card-2:hover .face.face2{
-    /* color: #242424; */
-
     height: 60px;
     border-radius: 0 0 15px 15px;
   }
@@ -509,9 +454,6 @@ padding: 15px
 
   .card-2 .face.face2{
     font-size: .8em;
-
-    /* color: #242424; */
-
     background: #111;
     transition: 0.5s;
   }
@@ -523,62 +465,40 @@ padding: 15px
   }
 
   .card-2 .face.face1 .p2{
-  /* color: #242424; */
   color: rgba(26, 26, 26, 0.945);
   font-size: 1.2em;
   font-weight: bold;
 }
-
-
 }
 
-  /* ---------------------- */
-  
-
   .card-2 .face{
-    /* color: #242424; */
-
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
     display: flex;
-    /* justify-content: center; */
     align-items: top;
   }
   
   .card-2 .face.face1{
-  /* color: #242424; */
-
   box-sizing: border-box;
   padding: 20px;
-
   background: linear-gradient(45deg, #dadada, #aaaaaa);
   border-radius: 15px;
 }
   
   .card-2 .face.face1 h2{
     color: #242424;
-
     margin: 0;
     padding: 0;
   }
-
-
-  
 
   .card-2 .face.face1 p{
     color: #242424;
   }
   
-
-
-
   .card-2 .face.face1 .content{
-    /* z-index: 10000; */
-
-    /* color: #242424; */
     font-size: 1.2em;
     margin:0;
     padding:0 0 1em 0;
@@ -586,67 +506,57 @@ padding: 15px
   }
   
 
-  .card-2:nth-child(1) .face.face2{ /* Contratos, traslativos de dominio */
+  .card-2:nth-child(1) .face.face2{
     background-position: center;
     background-size: cover;
     background-image: url('assets/img/contratos_1.jpg');
-    /* background: linear-gradient(45deg, #242424, #f7308c); */
     border-radius: 15px;
   }
   
-  .card-2:nth-child(2) .face.face2{ /* Sociedades, mercantiles */
+  .card-2:nth-child(2) .face.face2{
     background-position: center;
     background-size: cover;
     background-image: url('assets/img/mercantil_1.jpg');
-    /* background: linear-gradient(45deg, #242424, #f7308c); */
     border-radius: 15px;
   }
   
-  .card-2:nth-child(3) .face.face2{ /* Testamentos */
+  .card-2:nth-child(3) .face.face2{ 
     background-position: center;
     background-size: cover;
     background-image: url('assets/img/mid-adult-s.jpg');
-    /* background: linear-gradient(45deg, #242424, #f7308c); */
     border-radius: 15px;
   }
   
-  .card-2:nth-child(4) .face.face2{ /* Poderes/mandatos */
+  .card-2:nth-child(4) .face.face2{ 
     background-position: center;
     background-size: cover;
     background-image: url('assets/img/businessman-consulting-legal-expert.jpg');
-    /* background: linear-gradient(45deg, #242424, #f7308c); */
     border-radius: 15px;
   }
 
-  .card-2:nth-child(5) .face.face2{ /* Capitulaciones matrimoniales, disoluciones de sociedad conyugal */
+  .card-2:nth-child(5) .face.face2{
     background-position: center;
     background-size: cover;
     background-image: url('assets/img/silhouette-family-walking-by-sunset-time.jpg');
-    /* background: linear-gradient(45deg, #242424, #f7308c); */
     border-radius: 15px;
   }
 
-  .card-2:nth-child(6) .face.face2{ /* Consultoría legal en materia: */
+  .card-2:nth-child(6) .face.face2{
     background-position: center;
     background-size: cover;
     background-image: url('assets/img/consultoria_1.jpg');
-    /* background: linear-gradient(45deg, #242424, #f7308c); */
     border-radius: 15px;
   }
   
 
   
   .card-2 .face.face2:before{
-    /* color: #242424; */
-
     content:'';
     position: absolute;
     top:0;
     left:0;
-    /* width: 50%; */
     width: 0%;
 
-    /* width: 100%; */
     height: 100%;
     background: rgba(255,255,255, 0.1);
     border-radius: 15px 0 0 15px;
@@ -656,7 +566,6 @@ padding: 15px
   
   .card-2 .face.face2 h3{
     font-family: 'Roboto', sans-serif;
-    /* color: #242424; */
     margin: 0px;
     padding-left: 15px;
     padding-right: 15px;
@@ -671,39 +580,27 @@ padding: 15px
     top: auto;
     border-radius: 15px 15px 15px 15px;
     background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45) 100%);
-
-    /* text-shadow: 0 1px 1px rgba(255,255,255, 1); */
   }
-  
-
-
-
 
   .formatText{
   text-align: left;
   align-items: left;
   padding-left: 20%;
-
-  
 }
 
 
 .bi-people-fill{
-/* color: #30baba; */
-font-size: 3.5em;
+font-size: 3em;
 }
 
 .bi-eye-fill{
-/* color: #30baba; */
-font-size: 3.5em;
+font-size: 3em;
 }
 
 .bi-person-hearts{
-/* color: #30baba; */
-font-size: 3.5em;
+font-size: 3em;
 }
-/* -------------------------- */
- </style>
+ </style> -->
  
  <body class="sections-page">
    <nav class="box navbar navbar-expand-lg  bg-primary fixed-top  nav-down">
@@ -711,7 +608,7 @@ font-size: 3.5em;
        <div class="navbar-translate">
          <a class="navbar-brand">
            <!-- <span>Notaria </span>#104 -->
-                   <span><img src="assets/img/Logo5.png" alt="Bujo" width="90" height="54"></span>
+                   <span><img src="assets/img/logo_108_asset.png" alt="Bujo" width="90" height="54"></span>
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-bar bar1"></span>
@@ -791,7 +688,7 @@ font-size: 3.5em;
      </div>
      <!-- ------------------------------- -->
      <!-- ------------------------------- -->
-<div class="cd-section" id="features">
+{{-- <div class="cd-section" id="features">
        <div class="features-1">
          <div class="container">
            <div class="row">
@@ -809,9 +706,9 @@ font-size: 3.5em;
                  </div>
                  <h4 class="info-title">Misión</h4>
                  <p class="description">En la Notaría Pública 108, nos comprometemos a brindar servicios jurídicos
-integrales de la más alta calidad, con un enfoque en la satisfacción y confianza de
-nuestros clientes. Nuestro objetivo es garantizar la legalidad y seguridad jurídica
-en todas las transacciones y actos jurídicos realizados.</p>
+                  integrales de la más alta calidad, con un enfoque en la satisfacción y confianza de
+                  nuestros clientes. Nuestro objetivo es garantizar la legalidad y seguridad jurídica
+                  en todas las transacciones y actos jurídicos realizados.</p>
                </div>
              </div>
              <div class="col-md-4">
@@ -823,10 +720,10 @@ en todas las transacciones y actos jurídicos realizados.</p>
                  </div>
                  <h4 class="info-title">Visión</h4>
                  <p class="description">Ser reconocidos como la mejor opción en servicios jurídicos en Yucatán, utilizando
-la innovación y las nuevas tecnologías para mejorar la eficiencia y calidad en
-nuestros servicios. Queremos ser líderes en el mercado, ofreciendo soluciones
-legales innovadoras y eficientes que superen las expectativas de nuestros
-clientes.</p>
+                  la innovación y las nuevas tecnologías para mejorar la eficiencia y calidad en
+                  nuestros servicios. Queremos ser líderes en el mercado, ofreciendo soluciones
+                  legales innovadoras y eficientes que superen las expectativas de nuestros
+                  clientes.</p>
                </div>
              </div>
              <div class="col-md-4">
@@ -841,19 +738,19 @@ clientes.</p>
              <!-- <div class="col-md-5"> -->
                  <div class="formatText">
                  <p>Honestidad: Nos regimos por los más altos estándares éticos y de integridad en
-todos nuestros servicios, garantizando la confianza y tranquilidad de nuestros
-clientes.</p>
-                 <p>Profesionalismo: Contamos con un equipo de profesionales altamente capacitados
-y experimentados, comprometidos en brindar servicios de la más alta calidad.</p>
-                 <p>Innovación: Nos mantenemos actualizados en las últimas tendencias y
-tecnologías, buscando siempre soluciones innovadoras para mejorar la eficiencia y
-calidad de nuestros servicios.</p>
-                 <p>Responsabilidad: Nos comprometemos a cumplir con nuestros compromisos de
-manera puntual y efectiva, garantizando la satisfacción y confianza de nuestros
-clientes.</p>
-                 <p>Trabajo en equipo: Fomentamos un ambiente de trabajo colaborativo y
-respetuoso, en el que todos los miembros de nuestro equipo trabajen juntos para
-lograr los objetivos de nuestros clientes.</p>
+                  todos nuestros servicios, garantizando la confianza y tranquilidad de nuestros
+                  clientes.</p>
+                                  <p>Profesionalismo: Contamos con un equipo de profesionales altamente capacitados
+                  y experimentados, comprometidos en brindar servicios de la más alta calidad.</p>
+                                  <p>Innovación: Nos mantenemos actualizados en las últimas tendencias y
+                  tecnologías, buscando siempre soluciones innovadoras para mejorar la eficiencia y
+                  calidad de nuestros servicios.</p>
+                                  <p>Responsabilidad: Nos comprometemos a cumplir con nuestros compromisos de
+                  manera puntual y efectiva, garantizando la satisfacción y confianza de nuestros
+                  clientes.</p>
+                                  <p>Trabajo en equipo: Fomentamos un ambiente de trabajo colaborativo y
+                  respetuoso, en el que todos los miembros de nuestro equipo trabajen juntos para
+                  lograr los objetivos de nuestros clientes.</p>
                  <p>Servicios eficientes</p>
                  <p>Honorarios justos</p>
                   </div>
@@ -865,16 +762,20 @@ lograr los objetivos de nuestros clientes.</p>
            </div>
          </div>
        </div>
-     </div>
+     </div> --}}
 
 <!-- ------------------------------ -->
 
-<hr class="my-4">
+<!-- <hr class="my-4"> -->
 
+<br><br>
+
+<div class="cd-section" id="features">
 <Center><h3 class="title" style="font-weight: bold">Acerca De</h3></Center><br>
 <center>
+
 <div style="display: none;" id="gallery"></div>
-    <div class="row">
+    <!-- <div class="row"> -->
         <div class="col-12">
 
         <ul class="nav nav-tabs justify-content-center" role="tablist">
@@ -922,61 +823,54 @@ lograr los objetivos de nuestros clientes.</p>
 
 
                         <div class="tab-pane" id="link1">
-                            <div class="contenedor2">
+                            <div class="container">
                                
-                            <p style="color:black; font-weight: bold; font-size:140%; text-align:left;">Misión:</p>
-                            <p style="color:black; font-weight:normal; font-size:130%; text-align:justify;">En la Notaría Pública 108, nos comprometemos a brindar servicios jurídicos integrales de la más alta calidad, con un enfoque en la satisfacción y confianza de nuestros clientes. Nuestro objetivo es garantizar la legalidad y seguridad jurídica en todas las transacciones y actos jurídicos realizados.</p>
+                            <p style="font-weight: bold; font-size:140%; text-align:left;">Misión:</p>
+                            <p style="font-size:130%; text-align:justify;">En la Notaría Pública 108, nos comprometemos a brindar servicios jurídicos integrales de la más alta calidad, con un enfoque en la satisfacción y confianza de nuestros clientes. Nuestro objetivo es garantizar la legalidad y seguridad jurídica en todas las transacciones y actos jurídicos realizados.</p>
 
                             </div>
                         </div>
                         <div class="tab-pane" id="link2">
-                            <div class="contenedor2">
+                            <div class="container">
 
-                            <p style="color:black; font-weight: bold; font-size:140%; text-align:left;">Visión:</p>
-                            <p style="color:black; font-weight:normal; font-size:130%; text-align:justify;">Ser reconocidos como la mejor opción en servicios jurídicos en Yucatán, utilizando la innovación y las nuevas tecnologías para mejorar la eficiencia y calidad en nuestros servicios. Queremos ser líderes en el mercado, ofreciendo soluciones legales innovadoras y eficientes que superen las expectativas de nuestros clientes.</p>
+                            <p style="font-weight: bold; font-size:140%; text-align:left;">Visión:</p>
+                            <p style="font-size:130%; text-align:justify;">Ser reconocidos como la mejor opción en servicios jurídicos en Yucatán, utilizando la innovación y las nuevas tecnologías para mejorar la eficiencia y calidad en nuestros servicios. Queremos ser líderes en el mercado, ofreciendo soluciones legales innovadoras y eficientes que superen las expectativas de nuestros clientes.</p>
 
                             </div>
                         </div>
                         <div class="tab-pane" id="link3">
-                            <div class="contenedor2">
+                            <div class="container">
 
-                            <p style="color:black; font-weight: bold; font-size:140%; text-align:center;">Valores:</p>
-                            <p style="color:black; font-weight:normal; font-size:130%; text-align:justify;">
-Honestidad: Nos regimos por los más altos estándares éticos y de integridad en todos nuestros servicios, garantizando la confianza y tranquilidad de nuestros clientes.
-
-Profesionalismo: Contamos con un equipo de profesionales altamente capacitados y experimentados, comprometidos en brindar servicios de la más alta calidad.
-
-Innovación: Nos mantenemos actualizados en las últimas tendencias y tecnologías, buscando siempre soluciones innovadoras para mejorar la eficiencia y calidad de nuestros servicios.
-
-Responsabilidad: Nos comprometemos a cumplir con nuestros compromisos de manera puntual y efectiva, garantizando la satisfacción y confianza de nuestros clientes.
-
-Trabajo en equipo: Fomentamos un ambiente de trabajo colaborativo y respetuoso, en el que todos los miembros de nuestro equipo trabajen juntos para lograr los objetivos de nuestros clientes.
-
-Servicios eficientes
-
-Honorarios justos</p>
-
-               
-                            <!-- <div class="col-4">
-<div class="row">
-<div class="col">
-<p style="color:black; font-weight:normal; font-size:130%; text-align:left;">Honestidad</p>
-<p style="color:black; font-weight:normal; font-size:130%; text-align:left;">Liderazgo</p>
-<p style="color:black; font-weight:normal; font-size:130%; text-align:left;">Integridad</p>
-</div>
-<div class="col-4">
-<p style="color:black; font-weight:normal; font-size:130%; text-align:left;">Respeto</p>
-<p style="color:black; font-weight:normal; font-size:130%; text-align:left;">Transparencia</p>
-<p style="color:black; font-weight:normal; font-size:130%; text-align:left;">Imparcialidad</p>
-</div>
-</div>
-
-</div> -->
+                            <p style="font-weight: bold; font-size:140%; text-align:left;">Valores:</p>
+                            <p style="font-size:130%; text-align:justify;">                          
+                              <span style="color:#1d1d1d; font-weight: bold;">Honestidad: </span>Nos regimos por los más altos estándares éticos y de integridad en todos nuestros servicios, garantizando la confianza y tranquilidad de nuestros clientes.
+                              </p>
+                              <p style="font-size:130%; text-align:justify;">                          
+                              <span style="color:#1d1d1d; font-weight: bold;">Profesionalismo: </span>Contamos con un equipo de profesionales altamente capacitados y experimentados, comprometidos en brindar servicios de la más alta calidad.
+                              </p>
+                              <p style="font-size:130%; text-align:justify;">                          
+                              <span style="color:#1d1d1d; font-weight: bold;">Innovación: </span>Nos mantenemos actualizados en las últimas tendencias y tecnologías, buscando siempre soluciones innovadoras para mejorar la eficiencia y calidad de nuestros servicios.
+                              </p>
+                              <p style="font-size:130%; text-align:justify;">                          
+                              <span style="color:#1d1d1d; font-weight: bold;">Responsabilidad: </span>Nos comprometemos a cumplir con nuestros compromisos de manera puntual y efectiva, garantizando la satisfacción y confianza de nuestros clientes.
+                              </p>
+                              <p style="font-size:130%; text-align:justify;">                          
+                              <span style="color:#1d1d1d; font-weight: bold;">Trabajo en equipo: </span>Fomentamos un ambiente de trabajo colaborativo y respetuoso, en el que todos los miembros de nuestro equipo trabajen juntos para lograr los objetivos de nuestros clientes.
+                              </p>
+                              <br>
+                              <p style="font-size:130%; text-align:justify;">                          
+                              <span style="color:#1d1d1d; font-weight: bold;">Estos valores son fundamentales para nuestra Notaría y nos permiten brindar
+                              servicios jurídicos confiables, eficientes y de calidad que superen las expectativas
+                              de nuestros clientes.</span>
+                              </p>
     
                             </div>
                         </div>
   
 </div>
+</div>
+
+
 </center>
 
 
@@ -1482,7 +1376,7 @@ Honorarios justos</p>
                         
                         <div class="col-md-5">
                           <div class="info text-left bg-info">
-                            <h4 class="card-title">Información de contacto</h4>
+                            <h4 class="card-title">Oficina Mérida</h4>
 
                               <div class="info info-horizontal">
                                 <div class="icon">
@@ -1491,7 +1385,7 @@ Honorarios justos</p>
                                   <div class="description">
                                     <h5 class="info-title">
                                       Dirección:
-                                      <br>C. 18 # 330 x 17, Fraccionamiento Montebello, Mérida, Yucatán 
+                                      <br>C. 18 # 330 x 17, Fraccionamiento Montebello, CP: 97390, Mérida, Yucatán 
                                     </h5>
                                   </div>
                               </div>
@@ -1524,6 +1418,8 @@ Honorarios justos</p>
                               <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=C.%2017%20331,%20Montebello,%2097113%20M%C3%A9rida,%20Yuc.&t=&z=17&ie=UTF8&iwloc=&output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS car tracker</a></iframe></div>
 
 
+                                <h4 class="card-title">Oficina Uman</h4>
+
                                 <div class="info info-horizontal">
                                 <div class="icon">
                                   <i class="tim-icons icon-square-pin"></i>
@@ -1531,7 +1427,7 @@ Honorarios justos</p>
                                   <div class="description">
                                     <h5 class="info-title">
                                       Dirección:
-                                      <br>C. 18 # 330 x 17, Fraccionamiento Montebello, Mérida, Yucatán 
+                                      <br>C. 19-A # 95-A Colonia Centro, CP: 97113, Uman, Yucatán.
                                     </h5>
                                   </div>
                               </div>
@@ -1543,8 +1439,7 @@ Honorarios justos</p>
                                 <div class="description">
                                   <h5 class="info-title">
                                     Teléfono:
-                                    <br>9999 214941
-                                    <br>9999 315797
+                                    <br>9881 060806
                                   </h5>
                                 </div>
                               </div>
@@ -1556,7 +1451,7 @@ Honorarios justos</p>
                                   <div class="description">
                                     <h5 class="info-title">
                                       Correo electrónico:
-                                      <br>notaria104yucatan@gmail.com
+                                      <br>notaria108yucatan@gmail.com
                                     </h5>
                                   </div>
                                 </div>
