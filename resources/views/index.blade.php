@@ -1385,7 +1385,7 @@ font-size: 3em;
                                   <div class="description">
                                     <h5 class="info-title">
                                       Dirección:
-                                      <br>C. 18 # 330 x 17, Fraccionamiento Montebello, CP: 97390, Mérida, Yucatán 
+                                      <br>C. 18 #330 x 17, Fraccionamiento Montebello, CP: 97390, Mérida, Yucatán 
                                     </h5>
                                   </div>
                               </div>
@@ -1427,7 +1427,7 @@ font-size: 3em;
                                   <div class="description">
                                     <h5 class="info-title">
                                       Dirección:
-                                      <br>C. 19-A # 95-A Colonia Centro, CP: 97113, Uman, Yucatán.
+                                      <br>C. 19-A #95-A x 16-A, Colonia Centro, CP: 97113, Uman, Yucatán.
                                     </h5>
                                   </div>
                               </div>
@@ -1455,9 +1455,7 @@ font-size: 3em;
                                     </h5>
                                   </div>
                                 </div>
-
-                                
-                              <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=C.%2017%20331,%20Montebello,%2097113%20M%C3%A9rida,%20Yuc.&t=&z=17&ie=UTF8&iwloc=&output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS car tracker</a></iframe></div>
+                              <div style="width: 100%"><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=20.881534236426543,%20-89.74552609147167+(Notaria%20108)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/car-satnav-gps/">GPS car tracker</a></iframe></div>
 
                                 
                           </div>
