@@ -608,7 +608,7 @@ font-size: 3em;
        <div class="navbar-translate">
          <a class="navbar-brand">
            <!-- <span>Notaria </span>#104 -->
-                   <span><img src="assets/img/logo_108_asset.png" alt="Bujo" width="90" height="54"></span>
+                   <span><img src="assets/img/logo_108_white_banner.png" alt="Bujo" width="90" height="55"></span>
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-bar bar1"></span>
